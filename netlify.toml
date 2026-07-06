@@ -4,11 +4,11 @@
 [build]
   base = "frontend"
   command = "npm run build"
-  publish = "frontend/dist"
+  publish = "dist"
 
 # Environment variables (add your Supabase keys in Netlify Dashboard)
 [build.environment]
-  NODE_VERSION = "18"
+  NODE_VERSION = "20"
   VITE_SUPABASE_URL = ""
   VITE_SUPABASE_ANON_KEY = ""
 
